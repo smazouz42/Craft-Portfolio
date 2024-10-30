@@ -2,7 +2,7 @@
 import { LanguageSelector } from "./LanguageSelector"
 const Header = () => {
     return (
-        <nav className="container mx-auto flex justify-between items-center py-5">
+        <nav className="container mx-auto flex justify-between items-center p-5">
             <div className="text-white font-semibold flex gap-2 ">
                 {/* <Image
                     src="/logo.png"

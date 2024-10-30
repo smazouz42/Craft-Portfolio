@@ -43,7 +43,7 @@ const LanguageSelector = () => {
               className="flex  py-2 gap-2"
             >
               <span>{lang.label}</span>
-              <span>{lang.icon}</span>
+              {/* <span>{lang.icon}</span> */}
             </button>
           ))}
         </div>
