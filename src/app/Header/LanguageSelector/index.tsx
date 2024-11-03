@@ -20,7 +20,7 @@ const LanguageSelector = () => {
   ];
 
   return (
-    <div className="relative text-sm">
+    <div className="relative text-sm ">
       <button
         onClick={toggleOpen}
         className="flex items-center gap-2"
@@ -35,7 +35,7 @@ const LanguageSelector = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute">
+        <div className="absolute bg-red-200">
           {languages.map((lang) => (
             <button
               key={lang.label}
@@ -43,7 +43,7 @@ const LanguageSelector = () => {
               className="flex  py-2 gap-2"
             >
               <span>{lang.label}</span>
-              {/* <span>{lang.icon}</span> */}
+              <span>{lang.icon}</span>
             </button>
           ))}
         </div>

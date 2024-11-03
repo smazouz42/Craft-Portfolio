@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="w-full flex flex-col items-center text-gray-300 p-20">
-        <div className="text-3xl flex flex-col">
+        <div className="~text-lg/3xl flex flex-col">
           <div className="relative border border-gray-600 p-5">
             <Image
               src="/icons/quotation-mark.png"
