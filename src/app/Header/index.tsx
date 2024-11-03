@@ -3,6 +3,9 @@ import { useState } from "react";
 import { LanguageSelector } from "./LanguageSelector";
 import { IoMenu } from "react-icons/io5";
 import { motion } from "framer-motion"
+import { FaDice } from "react-icons/fa";
+
+
 
 
 const Header = () => {
@@ -10,7 +13,8 @@ const Header = () => {
 
     return (
         <nav className="container mx-auto flex justify-between items-center p-5">
-            <div className="text-white font-semibold flex gap-2">
+            <div className="text-white font-semibold flex gap-2 items-center">
+                <FaDice />
                 <a href="#home">Daiis</a>
             </div>
 

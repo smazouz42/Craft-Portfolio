@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="flex w-full justify-center items-center">
         <div className="flex w-full text-white flex-col gap-5">
           <h1 className="~text-lg/4xl ">
-            Elias is a <span className="text-purple-400">web designer</span> and
+            Said is a <span className="text-purple-400">web designer</span> and
             <span className="text-purple-400"> front-end developer</span>
           </h1>
           <p className="text-gray-400 ~text-xs/lg pt-2 max-w-[550px]">
@@ -28,10 +28,10 @@ const HomePage = () => {
             width={469}
             height={386}
           />
-          <p className="text-gray-400 ~text-xs/lg flex items-center gap-2 border border-gray-600 w-full max-w-[402px]">
-            <span className="w-4 h-4 bg-purple-400"></span>
-            Currently working on <span className="text-purple-400">Portfolio</span>
-          </p>
+          {/* <p className="text-gray-400 ~text-xs/lg flex items-center gap-2 border border-gray-600 w-full max-w-[402px]">
+            <span className="w-4 h-4  bg-purple-400"></span>
+            <span className="sm:flex hidden">Currently</span> working on <span className="text-purple-400">Portfolio</span>
+          </p> */}
         </div>
       </div>
       <div className="w-full flex flex-col items-center text-gray-300 p-20">
