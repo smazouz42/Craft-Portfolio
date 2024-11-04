@@ -1,23 +1,23 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { FaChevronDown } from 'react-icons/fa';
+import { useState } from 'react'
+import { motion } from 'framer-motion'
+import { FaChevronDown } from 'react-icons/fa'
 
 const LanguageSelector = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedLang, setSelectedLang] = useState('EN');
+  const [isOpen, setIsOpen] = useState(false)
+  const [selectedLang, setSelectedLang] = useState('EN')
 
-  const toggleOpen = () => setIsOpen(!isOpen);
+  const toggleOpen = () => setIsOpen(!isOpen)
 
-  const handleLanguageChange = (lang:string) => {
-    setSelectedLang(lang);
-    setIsOpen(false);
-  };
+  const handleLanguageChange = (lang: string) => {
+    setSelectedLang(lang)
+    setIsOpen(false)
+  }
 
   const languages = [
     { label: 'EN', icon: '🇬🇧' },
     { label: 'FR', icon: '🇫🇷' },
     { label: 'AR', icon: '🇸🇦' },
-  ];
+  ]
 
   return (
     <div className="relative text-sm ">
@@ -49,7 +49,7 @@ const LanguageSelector = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
 export { LanguageSelector }

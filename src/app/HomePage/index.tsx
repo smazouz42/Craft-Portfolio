@@ -1,16 +1,16 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 
 const HomePage = () => {
   return (
-    <section className="font-fira container mx-auto flex flex-col p-5">
+    <section className="font-fira container mx-auto flex flex-col p-5 w-full">
       <div className="flex w-full justify-center items-center">
-        <div className="flex w-full text-white flex-col gap-5">
-          <h1 className="~text-lg/4xl ">
+        <div className="flex w-full text-white flex-col gap-5 ">
+          <h1 className="text-4xl ">
             Said is a <span className="text-purple-400">web designer</span> and
             <span className="text-purple-400"> front-end developer</span>
           </h1>
-          <p className="text-gray-400 ~text-xs/lg pt-2 max-w-[550px]">
+          <p className="text-gray-400 ~text-sm/lg pt-2 max-w-[550px]">
             He crafts responsive websites where technologies meet creativity
           </p>
           <Button
@@ -21,7 +21,7 @@ const HomePage = () => {
           </Button>
         </div>
 
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full sm:flex flex-col items-center hidden">
           <Image
             src="/personal-image.png"
             alt="Personal image"
@@ -57,10 +57,9 @@ const HomePage = () => {
             <p>With great power</p>
           </div>
         </div>
-
       </div>
     </section>
-  );
-};
+  )
+}
 
-export { HomePage };
+export { HomePage }
