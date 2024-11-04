@@ -1,3 +1,6 @@
+import { AboutMe } from './About'
+import { Contact } from './Contact'
+import { Footer } from './Footer'
 import { Header } from './Header'
 import { HomePage } from './HomePage'
 import { Projects } from './Projects'
@@ -8,7 +11,10 @@ export default function Home() {
       <Header />
       <HomePage />
       <Projects />
-      <Skills/>
+      <Skills />
+      <AboutMe />
+      <Contact />
+      <Footer />
     </>
   )
 }
