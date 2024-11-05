@@ -1,6 +1,10 @@
 import React from 'react';
+interface SkillCardProps {
+  title: string;
+  skills: string[];
+}
 
-const SkillCard = ({ title, skills, ndx }) => {
+const SkillCard = ({ title, skills}: SkillCardProps) => {
   return (
     <div className={"p-3 w-fit h-fit border border-gray-400"}>
       <h3 className="text-xl text-white">{title}</h3>
