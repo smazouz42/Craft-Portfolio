@@ -1,14 +1,13 @@
-import { AboutMe } from './About'
-import { Contact } from './Contact'
-import { Footer } from './Footer'
-import { Header } from './Header'
-import { HomePage } from './HomePage'
-import { Projects } from './Projects'
-import { Skills } from './Skills'
+import { AboutMe } from '../components/About'
+import { Contact } from '../components/Contact'
+import { Footer } from '../components/Footer'
+import { HomePage } from '../components/HomePage'
+import { Projects } from '../components/Projects'
+import { Skills } from '../components/Skills'
+
 export default function Home() {
   return (
     <>
-      <Header />
       <HomePage />
       <Projects />
       <Skills />

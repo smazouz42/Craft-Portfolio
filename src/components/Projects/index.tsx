@@ -1,16 +1,19 @@
 import { ProjectCard } from './ProjectCard'
-import { Title } from '../../components/Title'
+import { Title } from '../Title'
+import Link from 'next/link'
 
 const Projects = () => {
   return (
 
-    <div className="container mx-auto flex flex-col ~gap-4/14 font-fira items-center">
+    <div className="container mx-auto flex flex-col ~gap-4/14 font-fira items-center" id="works">
       <div className="flex justify-between w-full ~text-lg/3xl text-white items-center">
         <Title
           width={70}
           title="Projects"
         ></Title>
-        <span className="text-white text-lg"> View all~~&gt;</span>
+        <Link href="/projects">
+          <span className="text-white ~text-sm/lg cursor-pointer"> View all ~~&gt;</span>
+        </Link>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         <ProjectCard

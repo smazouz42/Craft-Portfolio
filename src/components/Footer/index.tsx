@@ -20,7 +20,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/smazouz/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white flex"
@@ -29,7 +29,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/smazouz42"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white flex"

@@ -1,16 +1,17 @@
-import { Title } from '../../components/Title'
+'use client'
+import { Title } from '../Title'
 import { FaDiscord, FaEnvelope } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div className="container mx-auto flex flex-col ~gap-4/14 font-fira items-start justify-between ~py-2/10">
+    <section className="container mx-auto flex flex-col ~gap-4/14 font-fira items-start justify-between ~py-2/10" id="contacts">
       <div className="~text-lg/3xl text-white items-center w-full">
         <Title
           width={20}
           title="contacts"
         />
       </div>
-      <div className='flex w-full justify-between'>
+      <div className='flex w-full sm:justify-between sm:flex-row flex-col justify-center gap-2'>
         <div className='w-full flex max-w-[1200px] text-gray-400 ~text-sm/lg gap-4 px-4 flex-col justify-end'>
           <p>Hello, I’m Elias!</p>
           <p>I’m interested in freelance opportunities. However, if you have other requests or questions, don’t hesitate to contact me.</p>
@@ -23,16 +24,19 @@ const Contact = () => {
                 <FaDiscord />
                 <span>Discord</span>
               </a>
-              <a href="mailto:your-email@example.com" className="hover:text-white flex items-center gap-2">
+              <span className="flex items-center gap-2 cursor-pointer hover:text-white" onClick={() => {
+                const email = 's4idmazouz@gmail.com';
+                navigator.clipboard.writeText(email);
+              }}>
                 <FaEnvelope />
                 <span>Email</span>
-              </a>
+              </span>
             </div>
           </div>
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 
