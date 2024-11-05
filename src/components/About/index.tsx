@@ -16,9 +16,9 @@ const AboutMe = () => {
         </div>
         <div className='flex gap-4 max-w-[1300px] py-5'>
           <div className='w-full flex  text-gray-400 ~text-sm/lg gap-4 px-4 flex-col'>
-            <p>Hello, i’m Elias!</p>
-            <p>I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. </p>
-            <p>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+            <p>Hello, i’m Said Mazouz!</p>
+            <p>I’m a self-taught front-end developer based in khouribga, Morroco. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. </p>
+            <p>Transforming my creativity and knowledge into websites has been my passion for over a year. Combined with my strong problem-solving skills, I always strive to learn about the newest technologies and frameworks.</p>
             <Button
               className="rounded-none border border-purple-400 hover:bg-purple-400 w-fit ~px-2/5 ~text-xs/lg "
               variant="ghost"

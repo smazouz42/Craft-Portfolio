@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
       <div className='flex w-full sm:justify-between sm:flex-row flex-col justify-center gap-2'>
         <div className='w-full flex max-w-[1200px] text-gray-400 ~text-sm/lg gap-4 px-4 flex-col justify-end'>
-          <p>Hello, I’m Elias!</p>
+          <p>I’m Daiis!</p>
           <p>I’m interested in freelance opportunities. However, if you have other requests or questions, don’t hesitate to contact me.</p>
         </div>
         <div className='w-full flex justify-end items-end'>
