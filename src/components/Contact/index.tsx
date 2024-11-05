@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="border border-gray-400 w-fit hover:shadow-xl flex flex-col gap-2 p-4">
             <h1 className="text-white">Message me here</h1>
             <div className="flex items-center gap-4 text-gray-400 ">
-              <a href="https://discord.com/users/your-discord-id" target="_blank" rel="noopener noreferrer" className="hover:text-white flex items-center gap-2">
+              <a href="https://discord.com/users/576891892294352896" target="_blank" rel="noopener noreferrer" className="hover:text-white flex items-center gap-2">
                 <FaDiscord />
                 <span>Discord</span>
               </a>
