@@ -29,7 +29,7 @@ const Contact = () => {
                 navigator.clipboard.writeText(email);
               }}>
                 <FaEnvelope />
-                <span>Email</span>
+                <span>Copy Email</span>
               </span>
             </div>
           </div>

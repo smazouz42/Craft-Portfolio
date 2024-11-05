@@ -20,17 +20,21 @@ const Projects = () => {
           title='PongYo'
           description='Web Site That Has Profile, Chat And Onlone Ping Pong Game'
           topics={["/React", "/NextJs", "/NestJs", "/Sockets"]}
-          img='/PongYo.jpeg' />
+          img='/PongYo.jpeg'
+          link='https://github.com/smazouz42/PongYo'
+          />
         <ProjectCard
           title='Coinflip'
           description='A landing page for a crypto coin website build with NextJs using modern techniques'
           topics={["/React", "/NextJs", "/NestJs", "/Sockets"]}
-          img='/CoinFlip.png' />
+          img='/CoinFlip.png'
+          link="https://coinflip-website-delta.vercel.app/"/>
         <ProjectCard
-          title='IRC'
-          description='An IRC (Internet Relay Chat) network is a real-time, text-based communication platform'
-          topics={["/C++", "/C", "/Sockets"]}
-          img='/IRC.jpg' />
+          title='Portfolio'
+          description='A comprehensive portfolio showcasing various projects and skills'
+          topics={["/Next.js", "/Tailwind CSS"]}
+          img='/Portfolio.png'
+          link="https://portfolio-ten-zeta-49.vercel.app/" />
       </div>
     </div>
   )

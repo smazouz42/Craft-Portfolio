@@ -23,7 +23,6 @@ const AboutMe = () => {
               className="rounded-none border border-purple-400 hover:bg-purple-400 w-fit ~px-2/5 ~text-xs/lg "
               variant="ghost"
               onClick={() => {
-                console.log("said mazouz cv")
                 const link = document.createElement("a");
                 link.href = "/Said-Mazouz-cv.pdf";
                 link.download = "said-mazouz-cv.pdf";
