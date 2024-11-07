@@ -24,8 +24,8 @@ const AboutMe = () => {
               variant="ghost"
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/Said-Mazouz-cv.pdf";
-                link.download = "said-mazouz-cv.pdf";
+                link.href = "/Said-Mazouz-Cv.pdf";
+                link.download = "said-mazouz-Cv.pdf";
                 link.click()
               }}
             >
